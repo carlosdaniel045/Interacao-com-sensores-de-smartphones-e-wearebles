@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assistente Doma"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:paddingBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnVerificar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificar dispositivos"/>
+
+        <EditText
+            android:id="@+id/editMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Digite uma mensagem"/>
+
+        <Button
+            android:id="@+id/btnMensagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ler mensagem"/>
+
+        <Button
+            android:id="@+id/btnVoz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comando de voz"/>
+
+        <Button
+            android:id="@+id/btnAlerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alerta de segurança"/>
+
+        <TextView
+            android:id="@+id/txtEventos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eventos registrados: 0"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtHistorico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:background="#EEEEEE"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="top"
+            android:minHeight="250dp"
+            android:text=""/>
+
+    </LinearLayout>
+
+</ScrollView>
